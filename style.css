@@ -30,7 +30,7 @@ header{
 
 .action {
   grid-area: 3/2/span 1/ span 1;
-  margin-top: -5em;  
+  margin-top: -3.5rem;  
 }
 nav {
   grid-area: 1/1/span 1/ span 3;
@@ -317,11 +317,11 @@ form {
       
       button {
         margin-left: .5em;
-        padding: .5em;
+        padding: .5rem;
         background-color: #FCDC7E;
         border-style: none;
-        border-radius: 1em;
+        border-radius: 1rem;
         font-family: 'Julius Sans One', Arial; 
-        font-size: 1.2em;
+        font-size: 1.2rem;
         color: #9746A8;
       }
