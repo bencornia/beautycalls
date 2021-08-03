@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Beauty Calls | Brazilians | Brows | Lashes </title>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  
+  
+  <body>
+   <div id="content">  
+    <header>      
+      <nav>
+          <ul class="nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        
+      </nav>  
+      <div class="logo-box">
+            <img src="https://cdn.glitch.com/ecb2fbc7-fc2e-4ec1-bbc7-cbe612a46983%2FBeauty%20Calls%20(1).png?v=1616286152121" alt="beauty calls">
+      </div>
+        <div class="action">
+          <button>Book Appointment</button>
+        </div>
+      
+    </header>
+    
+    
+    <main>
+      
+      <h2 class="faq-headline">FAQ</h2>      
+
+      <button class="accordion">Does it hurt?</button>
+      <div class="panel">
+        <p>Waxing hair removal has been around for a long time. While it can be an uncomfortable experience, our clients are always pleased with their results.</p>
+      </div>
+
+      <button class="accordion">How long is a typical service?</button>
+      <div class="panel">
+        <p>I book out services for 30 minutes but you can expect your Brazilian wax to take only 15 minutes</p>
+      </div>
+
+      <button class="accordion">Can I get waxed while I’m pregnant?</button>
+      <div class="panel">
+        <p>Yes up until you give birth. Your Brazilian area will be slightly more sensitive due to pregnancy.</p>
+      </div>
+      
+      <button class="accordion">How much time between waxes?</button>
+      <div class="panel">
+        <p>We encourage clients to return every 4 weeks to get waxed. This helps the hair to get on the same growth cycle to eventually have an easier and smoother wax. For this reason, we encourage clients to not shave between appointments.</p>
+      </div>
+      
+      <button class="accordion">Waxing vs. Laser Hair removal</button>
+      <div class="panel">
+        <p>Waxing is a great alternative to laser hair removal. It’s cheaper and less painful and has better long-term results.</p>
+      </div>    
+      
+
+      <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+      </script>
+      
+    </main>
+    
+    
+    <footer>
+      <p>&copy; 2021 Beauty Calls LLC</p>
+      <a target ="_blank" href="site-plan.html">Site Plan</a>
+      <a target="_blank" href="https://www.facebook.com/"><img src="https://cdn.glitch.com/0ef94478-1cff-4aec-a3d5-2b892c4e4601%2Ffacebook.png?v=1602125525766" alt="facebook"></a>
+      <a target="_blank" href="https://www.instagram.com/?hl=en"><img src="https://cdn.glitch.com/0ef94478-1cff-4aec-a3d5-2b892c4e4601%2Finstagram.png?v=1602125527095" alt="instagram"></a>               
+      
+    </footer>
+    </div>
+  </body>
+</html>
